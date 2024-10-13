@@ -441,7 +441,7 @@ const App = () => {
 
         {/* Random IP Address */}
         <div className="bg-gradient-to-r from-purple-500 to-purple-700 text-white p-8 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300">
-          <h2 className="text-lg font-medium uppercase tracking-wide">IP Address</h2>
+          <h2 className="text-lg font-medium uppercase tracking-wide">Tracker IP Address</h2>
           <p className="mt-4 text-xl"><strong>IP:</strong> {randomIP.ip}</p>
           <p className="text-xl"><strong>Country:</strong> {randomIP.country}</p>
           <p className="text-xl"><strong>Request Time:</strong> {randomIP.requestTime}</p>
